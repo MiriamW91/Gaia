@@ -1,1 +1,13 @@
-background-color: Green
+h1{
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
+.jumbotron{
+	color: turquoise;
+}
+
+body{
+	background-color: green;
+}
+
