@@ -1,0 +1,27 @@
+h1{
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
+.jumbotron{
+	color: turquoise;
+}
+
+body{
+	background-color: green;
+}
+
+.pollution-images{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.news img{
+	padding: 10px;
+	width: 320px;
+	height: 250px;
+}
+
+.news .row{
+	height: 250px;
+}
