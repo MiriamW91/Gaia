@@ -11,7 +11,15 @@ body{
 	background-color: green;
 }
 
-div.pollution-images{
+.pollution-images{
 	padding-bottom: 5px;
 	padding-top: 5px;
+}
+
+.news img{
+	padding: 10px;
+}
+
+.news .row{
+	height: 250px;
 }
