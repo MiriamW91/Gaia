@@ -18,6 +18,8 @@ body{
 
 .news img{
 	padding: 10px;
+	width: 320px;
+	height: 250px;
 }
 
 .news .row{
