@@ -1,6 +1,17 @@
 body{
-	background-color: rgb(125, 190, 248);
+	background-color: rgb(95, 140, 207);
 	font-family: 'Ubuntu', sans-serif;	
+}
+
+.navbar-header{
+	position: fixed;
+}
+
+.jumbotron{
+	background-image: url('images/polar.jpg');
+	opacity: 0.5;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .title h1{
