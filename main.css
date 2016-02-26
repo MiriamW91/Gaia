@@ -1,14 +1,20 @@
-h1{
-	font-family: Verdana, Geneva, sans-serif;
-	text-align: center;
-}
-
-.jumbotron{
-	color: turquoise;
-}
-
 body{
-	background-color: green;
+	background-color: rgb(125, 190, 248);
+	font-family: 'Ubuntu', sans-serif;	
+}
+
+.title h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+}
+
+.subtitle{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 2em;	
+	color: white;
 }
 
 .pollution-images{
@@ -24,4 +30,45 @@ body{
 
 .news .row{
 	height: 250px;
+}
+
+#myCarousel img{
+	max-width: 450px;
+	height: 300px;
+}
+
+.videos iframe{
+	margin-top: 20px;
+	margin-bottom: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.videos p{
+	font-size: 1.2em;
+	text-align: center;
+}
+
+
+#social-buttons img{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.shop img{
+	width: 220px;
+	height: 250px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shop-form {
+	margin-top: 80px;
 }
