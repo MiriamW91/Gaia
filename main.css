@@ -86,3 +86,11 @@ span.highlight {
 .shop-form {
 	margin-top: 80px;
 }
+
+.shop p{
+	text-align: center;
+}
+
+.shop-form p{
+	text-align: left;
+}
