@@ -1,11 +1,15 @@
 body{
-	background-color: rgb(0, 204, 102);
+	background-color: rgb(152, 251, 152);
 	font-family: 'Ubuntu', sans-serif;	
 }
 
 .index{
 	background-color: rgb(152, 251, 152);
 	text-align: center;
+}
+
+.index #space{
+	height: 100px;
 }
 
 
@@ -32,6 +36,20 @@ body{
 	padding: 0;
 }
 
+.c-wrapper{
+	width: 100%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+margin: auto;
+}
+
+.indicators {
+	display: none;
+	bottom: -100px;
+}
 
 .title h1{
 	font-family: 'Ubuntu', sans-serif;
@@ -48,13 +66,17 @@ body{
 }
 
 #map {
-        width: 500px;
-        height: 400px;
-        background-color: #CCC;
+        width: 700px;
+        height: 600px;
         display: block;
     	margin-left: auto;
     	margin-right: auto;
+    	margin-top: 30px;
       }
+
+#top{
+	margin-top: 50px;
+}
 
 #top a {
 	color: #333;
@@ -66,8 +88,9 @@ body{
 	text-decoration: underline;
 }
 
-ul .dropdown-menu a{
+.body-text a{
 	color: #333;
+	text-decoration: underline;
 }
 
 .pollution-images{
@@ -93,17 +116,21 @@ ul .dropdown-menu a{
 #myCarousel a{
 	color: white;
 }
+
+.videos{
+	margin-top: 50px;
+}
+
 .videos iframe{
 	margin-top: 20px;
 	margin-bottom: 70px;
 	display: block;
-	margin-left: auto;
 	margin-right: auto;
 }
 
 .videos p{
 	font-size: 1.2em;
-	text-align: center;
+	text-align: auto;
 }
 
 
