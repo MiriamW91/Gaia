@@ -1,34 +1,73 @@
 body{
-	background-color: rgb(95, 140, 207);
+	background-color: rgb(0, 204, 102);
 	font-family: 'Ubuntu', sans-serif;	
 }
+
+.index{
+	background-color: rgb(152, 251, 152);
+	text-align: center;
+}
+
 
 .navbar-header{
 	position: fixed;
 }
 
+#bs-example-navbar-collapse-1 li a{
+	color: rgb(152, 251, 152);
+}
+
+
 .jumbotron{
-	background-image: url('images/polar.jpg');
+	background-image: url('images/Grass1.jpg');
 	background-size: cover;
 	background-attachment: fixed;
+	font-family: 'Ubuntu', sans-serif;
+	font-color: rgb(152, 251, 152);
 }
 
-span.highlight {
-	background-color: white;
+.jumbotron p{
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
 }
+
 
 .title h1{
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 50px;
 	text-align: center;
-	color: white;
+	color: rgb(152, 251, 152);
 }
 
 .subtitle{
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
-	font-size: 2em;	
-	color: white;
+	font-size: 15px;	
+	color: rgb(152, 251, 152);
+}
+
+#map {
+        width: 500px;
+        height: 400px;
+        background-color: #CCC;
+        display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+      }
+
+#top a {
+	color: #333;
+	text-decoration: underline;
+}
+
+.news a{
+	color: #333;
+	text-decoration: underline;
+}
+
+ul .dropdown-menu a{
+	color: #333;
 }
 
 .pollution-images{
@@ -51,6 +90,9 @@ span.highlight {
 	height: 300px;
 }
 
+#myCarousel a{
+	color: white;
+}
 .videos iframe{
 	margin-top: 20px;
 	margin-bottom: 70px;
